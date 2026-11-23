@@ -18,7 +18,8 @@ Kubernetes, Helm, MongoDB, Mongo Express, Linode LKE, Linux
 ``` console
 $ helm install mongodb --values helm-mongodb bitnami/mongodb
 ```
-- check the components created in the cluster with the use of the helm chart: pods, headless service and stateful sets were created
+- check the components created in the cluster with the use of the helm chart:
+  pods, headless service, secret and stateful sets were created
 - NOTE: a headless service was created instead of ClusterIP because this provides stable, unique DNS records for each individual MongoDB pod so that replica set members can find, communicate, and elect a primary among themselves
 ``` console
 $ kubectl get pod
