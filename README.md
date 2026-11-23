@@ -3,6 +3,9 @@
 Kubernetes, Helm, MongoDB, Mongo Express, Linode LKE, Linux
 
 **Overview**:
+Demo Project: Install a stateful service (MongoDB) on a Kubernetes cluster using Helm
+
+
 - Create a managed K8s cluster with Linode Kubernetes Engine, configure worker nodes only. Linode will take care of the control plane for your cluster. 
 
 <img width="825" height="422" alt="Mod10-LKE1" src="https://github.com/user-attachments/assets/884cae1f-5681-4341-8b6f-8e817748bda1" />
