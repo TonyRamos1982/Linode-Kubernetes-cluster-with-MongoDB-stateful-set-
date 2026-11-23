@@ -22,9 +22,8 @@ $ helm install mongodb --values helm-mongodb bitnami/mongodb
   
 | componets created |
 | :--- |
-| <ul><li>PODS</li><li>HEADLESS SERVICE</li><li>SECRET</li><li>STATEFUL SET</li></ul> |
+| <ul><li>pods</li><li>headless service</li><li>secret</li><li>stateful set</li></ul> |
 
-  pods, headless service, secret and stateful sets were created
 - NOTE: a headless service was created instead of ClusterIP because this provides stable, unique DNS records for each individual MongoDB pod so that replica set members can find, communicate, and elect a primary among themselves
 ``` console
 $ kubectl get pod
