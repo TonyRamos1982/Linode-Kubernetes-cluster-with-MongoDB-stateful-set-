@@ -13,7 +13,9 @@ Kubernetes, Helm, MongoDB, Mongo Express, Linode LKE, Linux
 
 - Deploy replicated MongoDB service in LKE cluster using a Helm chart, by adding the MongoDB Bitnami Repo to your local machine and pull the MongoDB helm chart.
 - Configure values.yaml file to override the desired MongoDB parameters: architecture:replicaset, storageClass: "linode-block-storage", rootPassword: secret-root-pwd
- $ helm install mongodb --values helm-mongodb bitnami/mongodb
+``` console
+$ helm install mongodb --values helm-mongodb bitnami/mongodb
+```
   
 - Configure data persistence for MongoDB with Linode’s cloud storage
 - Deploy UI client Mongo Express for MongoDB
