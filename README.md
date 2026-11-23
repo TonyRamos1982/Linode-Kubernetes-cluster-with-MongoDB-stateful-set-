@@ -59,5 +59,6 @@ helm upgrade --install ingress-nginx ingress-nginx/ingress-nginx \
 | :--- |
 | <ul><li>ingress-nginx controller pod</li><li>ingress-nginx deployment</li><li>ingress-nginx controller service of type: load balancer</li></ul> |
 
-<img width="1013" height="137" alt="image" src="https://github.com/user-attachments/assets/e4251daa-2590-416c-8460-24c118b8e5de" />
+<img width="1037" height="450" alt="image" src="https://github.com/user-attachments/assets/5a6ca460-15ae-4127-aade-b761fc939a62" />
+
 
