@@ -54,7 +54,7 @@ helm upgrade --install ingress-nginx ingress-nginx/ingress-nginx \
   --set controller.service.type=LoadBalancer
 ```
 - Check the components installed by helm:
-- 
+
 | componets created |
 | :--- |
 | <ul><li>ingress-nginx controller pod</li><li>ingress-nginx deployment</li><li>ingress-nginx controller service of type: load balancer</li></ul> |
