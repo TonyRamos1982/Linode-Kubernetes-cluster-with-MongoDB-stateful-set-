@@ -71,7 +71,8 @@ $ kubectl apply -f helm-ingress.yaml
 $ kubectl get ingress 
 ```
   
-<img width="798" height="97" alt="image" src="https://github.com/user-attachments/assets/c5723a8f-3b6e-4e99-a27c-b3119d8d8c08" />
+<img width="876" height="55" alt="image" src="https://github.com/user-attachments/assets/259df876-e774-4d25-a11a-b0617b6ce4b5" />
+
 
 - Finally we can access the mongo-express UI client in our cluster via the linode hostname address.
 
