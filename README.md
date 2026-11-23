@@ -5,7 +5,7 @@ Kubernetes, Helm, MongoDB, Mongo Express, Linode LKE, Linux
 **Overview**:
 - Create a managed K8s cluster with Linode Kubernetes Engine
 
-<img width="1325" height="722" alt="Mod10-LKE1" src="https://github.com/user-attachments/assets/884cae1f-5681-4341-8b6f-8e817748bda1" />
+<img width="1025" height="422" alt="Mod10-LKE1" src="https://github.com/user-attachments/assets/884cae1f-5681-4341-8b6f-8e817748bda1" />
 
 
 
