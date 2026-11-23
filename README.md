@@ -61,4 +61,22 @@ helm upgrade --install ingress-nginx ingress-nginx/ingress-nginx \
 
 <img width="1037" height="450" alt="image" src="https://github.com/user-attachments/assets/5a6ca460-15ae-4127-aade-b761fc939a62" />
 
+- Now we need to create the ingress rule for our ingress-nginx controller which is an Ingress resource (the rule component), the helm-ingress.yaml file configuration map that tells your ingress-nginx controller which internal Kubernetes Service (Mongo-express) should receive incoming traffic based on the requested domain name or URL path.
+``` console
+$ kubectl apply -f helm-ingress.yaml
+```
+-now you can check the created ingress component in your cluster 
+
+``` console
+$ kubectl get ingress 
+```
+  
+<img width="798" height="97" alt="image" src="https://github.com/user-attachments/assets/c5723a8f-3b6e-4e99-a27c-b3119d8d8c08" />
+
+- Finally we can access the mongo-express UI client in our cluster via the linode hostname address.
+
+<img width="1334" height="442" alt="image" src="https://github.com/user-attachments/assets/01f8ffcc-bcf1-4702-932d-66bda81bd63e" />
+
+<img width="1563" height="643" alt="image" src="https://github.com/user-attachments/assets/da5f5d8e-7bcc-4a30-89a1-b076b775e4b1" />
+
 
