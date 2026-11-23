@@ -28,7 +28,7 @@ $ kubectl get secret
 <img width="906" height="248" alt="image" src="https://github.com/user-attachments/assets/cc0728f8-5dd4-4cb5-953f-59fdbb7adb7f" />
 
 - Persistent volumes were created in Linode cluster automatically and attached to each pod
-<img width="825" height="422" alt="image" src="https://github.com/user-attachments/assets/3d4218f9-bff3-424e-979f-2a913df193db" />
+<img width="825" height="322" alt="image" src="https://github.com/user-attachments/assets/3d4218f9-bff3-424e-979f-2a913df193db" />
 
 
   
