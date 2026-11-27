@@ -45,7 +45,7 @@ $ kubectl apply -f helm-mongo-express.yaml
 ```
 <img width="827" height="313" alt="image" src="https://github.com/user-attachments/assets/632045b2-ba99-447b-889d-d935adfeea66" />
 
-- Deploy and configure nginx ingress to access the UI application from browser
+- Deploy and configure nginx ingress to access the Mongo Express UI application from browser
 ``` console
 # 1. Add the ingress-nginx helm chart repository
 $ helm repo add ingress-nginx https://github.io
