@@ -48,13 +48,13 @@ $ kubectl apply -f helm-mongo-express.yaml
 - Deploy and configure nginx ingress to access the UI application from browser
 ``` console
 # 1. Add the ingress-nginx helm chart repository
-helm repo add ingress-nginx https://github.io
+$ helm repo add ingress-nginx https://github.io
 
 # 2. Refresh your local repository cache
-helm repo update
+$ helm repo update
 
 # 3. Deploy ingress-nginx into your current namespace as a LoadBalancer
-helm upgrade --install ingress-nginx ingress-nginx/ingress-nginx \
+$ helm upgrade --install ingress-nginx ingress-nginx/ingress-nginx \
   --set controller.service.type=LoadBalancer
 ```
 - Check the components installed by helm:
